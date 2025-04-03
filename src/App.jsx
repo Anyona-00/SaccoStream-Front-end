@@ -12,6 +12,7 @@ import PasswordResetPage from "./pages/Authpages/PasswordResetPage";
 import Homepage from "./pages/Homepage/Homepage";
 
 import WelcomePage from "./pages/WelcomePage";
+import ATS from "./pages/ATS";
 import ComingSoonPage from "./pages/Coming Soon";
 import DepositFundsPage from "./pages/Transactionpages/DepositFundsPage";
 import WithdrawFundsPage from "./pages/Transactionpages/WithdrawFundsPage";
@@ -37,6 +38,7 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/reset-password" element={<PasswordResetPage />} />
         <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/ats" element={<ATS />} />
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/comingsoon" element={<ComingSoonPage />} />
         <Route path="/deposit" element={<DepositFundsPage />} />
